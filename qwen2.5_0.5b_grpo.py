@@ -191,7 +191,7 @@ def infer():
     # raw model version
     print('--------Raw Model---------')
     raw_model = AutoModelForCausalLM.from_pretrained(
-        '/home/yukizh/.cache/modelscope/hub/models/Qwen/Qwen2.5-0.5B-Instruct',
+        '/home/xxxxxx/.cache/modelscope/hub/models/Qwen/Qwen2.5-0.5B-Instruct',
         torch_dtype="auto",
         device_map="auto")
     generated_ids_raw = raw_model.generate(
